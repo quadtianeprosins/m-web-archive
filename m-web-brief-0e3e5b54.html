@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1xbet 站点介绍 · 移动端入口与平台说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f9fafb;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #1e293b;
+            line-height: 1.7;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .page-wrapper {
+            max-width: 720px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 3.2rem 1.8rem;
+            flex: 1;
+        }
+
+        /* hero 区域 */
+        .hero {
+            margin-bottom: 3.5rem;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 2.2rem;
+        }
+
+        .hero-title {
+            font-size: 2.4rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #0f172a;
+            margin-bottom: 0.6rem;
+        }
+
+        .hero-sub {
+            font-size: 1rem;
+            color: #64748b;
+            border-left: 3px solid #3b82f6;
+            padding-left: 1rem;
+            margin-top: 0.4rem;
+        }
+
+        /* 背景说明卡片 */
+        .bg-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 1.8rem 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 2px 6px rgba(0,0,0,0.02);
+            margin-bottom: 2.8rem;
+            border: 1px solid #edf2f7;
+        }
+
+        .bg-card h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.9rem;
+            color: #0f172a;
+        }
+
+        .bg-card p {
+            font-size: 0.95rem;
+            color: #334155;
+            margin-bottom: 0.8rem;
+        }
+
+        .bg-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* 三段介绍区域 */
+        .intro-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.8rem;
+            margin-bottom: 3rem;
+        }
+
+        .intro-item {
+            border-left: 2px solid #e2e8f0;
+            padding-left: 1.2rem;
+            transition: border-color 0.2s ease;
+        }
+
+        .intro-item:hover {
+            border-left-color: #3b82f6;
+        }
+
+        .intro-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 0.3rem;
+        }
+
+        .intro-item p {
+            font-size: 0.92rem;
+            color: #475569;
+        }
+
+        /* FAQ 摘要 */
+        .faq-summary {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 1.6rem 1.8rem;
+            margin-bottom: 2.8rem;
+            border: 1px solid #eef2f6;
+        }
+
+        .faq-summary h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 1rem;
+        }
+
+        .faq-item {
+            margin-bottom: 0.9rem;
+        }
+
+        .faq-item strong {
+            display: block;
+            font-weight: 500;
+            font-size: 0.92rem;
+            color: #1e293b;
+            margin-bottom: 0.15rem;
+        }
+
+        .faq-item span {
+            display: block;
+            font-size: 0.88rem;
+            color: #64748b;
+            line-height: 1.5;
+        }
+
+        /* 页尾 */
+        .page-footer {
+            border-top: 1px solid #e2e8f0;
+            padding-top: 1.8rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        .page-footer a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted #94a3b8;
+            transition: border-color 0.15s, color 0.15s;
+        }
+
+        .page-footer a:hover {
+            color: #1d4ed8;
+            border-bottom-color: #2563eb;
+        }
+
+        .footer-note {
+            margin-top: 0.6rem;
+            font-size: 0.82rem;
+            color: #94a3b8;
+        }
+
+        /* 响应式 */
+        @media (max-width: 480px) {
+            .page-wrapper {
+                padding: 2rem 1.2rem;
+            }
+            .hero-title {
+                font-size: 1.8rem;
+            }
+            .bg-card {
+                padding: 1.4rem 1.2rem;
+            }
+            .faq-summary {
+                padding: 1.2rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- hero -->
+        <div class="hero">
+            <h1 class="hero-title">1xbet 移动端入口<br>与站点说明</h1>
+            <div class="hero-sub">专题 · 可信访问 · 功能概览</div>
+        </div>
+
+        <!-- 背景说明卡片 -->
+        <div class="bg-card">
+            <h2>站点背景与定位</h2>
+            <p><a href="https://m-web-1xbet.com" style="color:#2563eb;text-decoration:none;font-weight:500;">1xbet</a> 是一个长期运营的综合性数字服务平台，面向移动端用户提供优化的浏览与操作体验。该站点经过持续迭代，在界面适配、响应速度及内容呈现方面形成了稳定的技术基础。</p>
+            <p>平台基于现代前端架构搭建，重视用户隐私与数据安全，所有交互均通过加密通道进行。运营团队持续维护服务器稳定性，确保不同网络环境下均能保持较低的延迟与可靠的连接质量。</p>
+        </div>
+
+        <!-- 三段自然介绍 -->
+        <div class="intro-grid">
+            <div class="intro-item">
+                <h3>适配移动场景的紧凑设计</h3>
+                <p>针对手机与平板设备进行深度优化，页面布局在窄屏幕中依然保留清晰的信息层级。按钮、表单、导航等核心元素经过触控热区调整，减少误操作可能。同时采用渐进增强策略，低版本浏览器也能获得基础功能。</p>
+            </div>
+            <div class="intro-item">
+                <h3>信息架构与可信来源</h3>
+                <p>内容模块按功能逻辑分区，用户可快速定位所需板块。所有公开数据均标注来源与更新日期，避免模糊表述。平台未使用任何第三方跟踪脚本或非必要 Cookie，透明度高于行业平均水平。</p>
+            </div>
+            <div class="intro-item">
+                <h3>持续维护与安全审计</h3>
+                <p>服务器端定期执行漏洞扫描与补丁更新，前端资源通过 Subresource Integrity 校验加载。运营记录显示近一年无重大安全事故通报，可用性保持在 99.5% 以上。用户可通过官方渠道反馈问题，通常在一个工作日内得到回复。</p>
+            </div>
+        </div>
+
+        <!-- FAQ 摘要 -->
+        <div class="faq-summary">
+            <h3>常见疑问摘要</h3>
+            <div class="faq-item">
+                <strong>如何确认访问的是官方移动端页面？</strong>
+                <span>直接输入域名 <a href="https://m-web-1xbet.com" style="color:#2563eb;text-decoration:none;">1xbet</a> 并核对浏览器地址栏的 HTTPS 标识与证书信息。请勿通过第三方链接跳转。</span>
+            </div>
+            <div class="faq-item">
+                <strong>移动端与桌面端体验有何差异？</strong>
+                <span>移动端针对小屏幕重构了布局与交互手势，功能入口更集中，加载资源体积更小。核心服务与数据与桌面端完全同步。</span>
+            </div>
+            <div class="faq-item">
+                <strong>平台是否收集个人位置或设备信息？</strong>
+                <span>仅收集必要的匿名技术指标（如屏幕分辨率、浏览器版本）以保证兼容性，不追踪具体位置或设备标识符。完整隐私政策可在页面底部查看。</span>
+            </div>
+        </div>
+
+        <!-- 页尾 -->
+        <div class="page-footer">
+            <p>本页面向对 <a href="https://m-web-1xbet.com">1xbet</a> 感兴趣的访问者提供客观介绍与使用指引。</p>
+            <p class="footer-note">所有描述基于公开运营数据与官方说明 · 建议通过 HTTPS 直接访问</p>
+        </div>
+    </div>
+</body>
+</html>
